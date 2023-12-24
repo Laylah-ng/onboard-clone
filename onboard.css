@@ -1,0 +1,86 @@
+ .line-1,
+.line-2,
+.line-3 {
+  width: 25px;
+  height: 3px;
+  margin: 6px 0;
+  background-color: #333;
+  transition: 0.2s;
+}
+
+.change .line-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .line-2 {
+  opacity: 0;
+}
+.change .line-3 {
+ transform: rotate(45deg) translate(-5px, -6px);
+}
+ .hamburger-icon {
+  cursor: pointer;
+  display: flex;
+  
+  
+  
+}
+ 
+.menu {
+  font-weight: bold;
+  margin: 5px 5px
+  
+  
+  
+  
+}
+
+
+.link-style{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    
+} 
+.list > li{
+    list-style-type: none;
+    padding: 10px 10px;
+}
+.list{
+    background-color: rgb(233, 233, 241);
+    padding: 20px 20px;
+    
+} 
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+   padding-top: 20px;
+
+}
+
+@media (max-width:765px) {
+    .middle{
+    display: none;
+}
+
+}
+  @media (min-width:765px) {
+  .hamburger-icon{
+    display: none;
+  }
+  .list{
+    display: none;
+  }
+  .logo{
+    width:10vw
+  }
+  .middle{
+    font-size: 1.5vw;
+  }
+    
+} 
+
+
+
