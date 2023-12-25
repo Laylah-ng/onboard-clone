@@ -1,3 +1,4 @@
+
  .line-1,
 .line-2,
 .line-3 {
@@ -42,11 +43,13 @@
 .all{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     margin: auto;
    padding-top: 20px;
 }
-
+.middle > a:hover {
+    color: blue;
+}
 @media (max-width:765px) {
     .middle{
     display: none;
@@ -60,13 +63,99 @@
     display: none;
   }
   .logo{
-    width:10vw
+    width:9vw
   }
   .middle{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
     
 } 
+.bold-text{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 1000;
+    padding-top: 82px;
+     width: 80%;
+     margin: 0 auto;
+     font-size: 7vw;
+}
+.normal-text{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px
+} 
 
+ @media (min-width:652px) {
+    .top{
+        width: 100%;
+        margin: auto;
+    }
+    .bold-text{
+        font-size: 5.5vw;
+        width: 100%;
+    }
+    .all{
+        width: 90%
+    }
 
+}
+@media (min-width: 765px) {
+    .top{
+        width: 75%;
+    }
+    .all{
+        width: 85%;
+    }
+    .bold-text{
+        font-size:4vw;
+        padding-top: 50px;
+    }
+    .normal-text{
+        font-size:2vw;
+        width: 75%;
+    }
+}
+.download{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 50px; 
+}
+.apple:hover, .playstore:hover{
+    cursor: pointer;
+}
+.applelogo, .playlogo{
+    width: 20px;
+    height: 20px;
+   
+    
+}
+.apple{
+    display: flex;
+    column-gap: 10px;
+    height: 60px;
+    width: 190px;
+    align-items: center;
+    padding: 15px 0 25px 35px;
+    border-radius: 50px;
+
+}
+.playstore{
+     display: flex;
+    column-gap: 10px;
+    height: 60px;
+    width: 170px;
+    align-items: center;
+    padding: 15px 20px 25px 35px;
+    border-radius: 50px;
+}
+.smal{
+    font-size: 10px;
+}
+
+.apple-text{
+    line-height: 14px;
+}
 
