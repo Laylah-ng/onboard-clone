@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 
  .line-1,
 .line-2,
@@ -50,12 +53,12 @@
 .middle > a:hover {
     color: blue;
 }
-@media (max-width:765px) {
+@media (max-width:768px) {
     .middle{
     display: none;
 }
 }
-  @media (min-width:765px) {
+  @media (min-width:768px) {
   .hamburger-icon{
     display: none;
   }
@@ -70,6 +73,7 @@
   }
     
 } 
+
 .bold-text{
     text-transform: uppercase;
     text-align: center;
@@ -101,7 +105,7 @@
     }
 
 }
-@media (min-width: 765px) {
+@media (min-width: 768px) {
     .top{
         width: 75%;
     }
@@ -158,4 +162,287 @@
 .apple-text{
     line-height: 14px;
 }
+.people{
+    max-width:100%;
+    height: auto;
+}
+.people-container {
+    padding: 60px 50px;
+
+    
+}
+
+.grey{
+   
+    background-color: rgb(248, 248, 248);
+    padding: 70px 0 70px 0;
+    
+}
+.crypto{
+    font-weight: 900;
+    font-size: 25px;
+    padding:  20px 0 20px;
+}
+.left-text{
+    padding-bottom: 30px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.spend{
+    padding-bottom: 30px;
+    width:95%;
+    font-size: 15px;
+
+}
+.learn{
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+}
+.phone{
+    width:100%;
+    height: auto;
+}
+.about{
+    width:95%;
+    margin: auto;
+}
+
+.why{
+    font-weight: 700;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.arrow{
+    width: 95%;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+}
+@media (min-width: 768px) {
+    .why{
+    
+    width: 85%;
+    margin: 0 auto;
+    }
+
+    .about{
+        display: grid;
+        grid-template-columns: 40% 50%;
+        justify-content: center; 
+    }
+    .phone{
+        width:90%;
+        height: auto;
+
+    }
+    .spend{
+        font-size: 1.5vw;
+        padding: 0;
+    }
+    .crypto{
+        font-size: 2.7vw;
+        padding: 60px 0 0 0;
+    }
+    .learn{
+        font-size: 1.2vw;
+    }
+        .arrow{
+        display: none;
+    }
+    .arrow-2{
+        padding-top: 50px;
+    }
+   
+
+    
+}
+
+
+.right-arrow, .left-arrow{
+    font-size: 40px;
+    color: grey;
+}
+.right-arrow:hover, .left-arrow:hover{
+    color: black;
+    cursor: pointer
+}
+
+.move{
+    font-weight: 700;
+    font-size: 22px;
+    padding:  20px 0 20px;
+
+}
+ .reason{
+    padding-top: 30px;
+    width: 95%;
+    margin: auto;
+}  
+ 
+@media (min-width:768px) {
+    .reason{
+        display: grid;
+        grid-template-columns: 50% 34%;
+        justify-content: center;
+    
+}
+ }
+ @media (max-width: 768px) {
+ .arrow-2{
+    display: none
+ }
+    
+ }
+
+ /* dark part */
+ .dark-container{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+ }
+.outline{
+    border: 2px solid cyan;
+    position: relative;
+}
+.line{
+    border: 2px solid rgb(1, 1, 51)
+}
+.blue{
+    background-color: rgb(1, 1, 51);
+    border-radius: 20px;    
+}
+@media (min-width:768px) {
+    .self{
+        padding: 7vw 0 20px 0;
+        font-size: 3.5vw;
+    }
+    .simplest{
+        font-size: 1.7vw
+        }
+
+    }
+    
+@media (max-width:768px) {
+    
+ .self{
+   padding: 45px 0 25px 0;
+   font-size: 30px;
+   font-weight: 700;
+   
+}
+.simplest{
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+    .ease{
+        display: none;
+    }
+    .blue{
+
+    height:500px;
+    width: 500px;
+    margin: 0 auto;
+}
+.cons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;    
+}
+.cons-title{
+    padding: 50px 0 50px 0px;
+    font-size: 25px;
+    font-weight: 700
+
+
+}
+.cons > p{
+    padding-left: 50px;
+}
+.outline{
+    margin-top: 50px;
+    
+    
+}
+.hand{
+    width: 90px;
+
+}
+.hand-container{
+    position: absolute;;
+    top: -10%;
+    left: 85%
+   
+}
+
+    
+}
+@media (min-width: 768px) {
+    .custody{
+        display: grid;
+        grid-template-columns: 20% 30% 30%;
+        justify-content: center;
+        align-items: center;
+        column-gap: 2%;
+    }
+    .self{
+        font-size: 3.8vw;
+        font-weight: 700;
+        
+    }
+    .cons-title{
+        padding: 40px 0 50px 0px;
+        font-size: 2.5vw;
+
+    }
+    .simplest{
+        font-size: 1.8vw;
+        padding-bottom: 35px;
+    }
+    .blue{
+        font-size: 1.5vw;
+        padding-bottom: 5vw;
+    }
+    .cons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vw;    
+    }
+    .dark-container{
+        padding-bottom: 50px;
+    }
+    .cons > p{
+    width: 85%;
+    margin: auto;
+}
+.ease{
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vw;
+    padding-top: 90px;
+    
+
+}
+.hand{
+    width: 12vw;;
+}
+.hand-container{
+    position: absolute;
+    top: -10%;
+    left: 70%;
+}
+
+    
+}
+
+
+
+
+
+
+
 
